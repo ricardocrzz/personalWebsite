@@ -4,7 +4,7 @@ type Props = {}
 
 function Contact({ }: Props) {
     return (
-        <div>Contact</div>
+        <div className='h-screen'>Contact</div>
     )
 }
 

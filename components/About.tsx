@@ -18,7 +18,7 @@ export default function About({ }: Props) {
             className='flex flex-col relative h-screen text-center md:text-left
         md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
             <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">about</h3>
-            <motion.img src="/aboutPhoto.JPG" alt=""
+            <motion.img src="/updatedAboutPhoto.png" alt=""
                 className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px] xl:mt-[100px]"
                 initial={{
                     x: -200,
@@ -44,6 +44,8 @@ export default function About({ }: Props) {
                 <p className='text-base'>
                     I'm a skilled computer scientist with a Bachelor of Science in Computer Science from the Univesity of Calgary, holding a remarkable 3.63 GPA and recognized as a Distinction Student and Dean's List Student.
                     With experience as a Software Developer Intern at ATB Financial, I have a track record of implementing impactful solutions.
+                    <br />
+                    <br />
                     I am also adept in web development, having created impressive projects such as a responsive LinkedIn clone, a Spotify Web App with user authentication, and a real-time chat web app.
                     My diverse skill set includes proficiency in languages like JavaScript, Python, and C++, along with expertise in technologies such as Firebase, Docker, and Google Cloud Platform.</p>
             </div>

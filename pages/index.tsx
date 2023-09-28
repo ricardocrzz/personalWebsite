@@ -6,6 +6,7 @@ import Skills from "@/components/Skills"
 import Projects from "@/components/Projects"
 import Contact from "@/components/Contact"
 import Head from "next/head"
+import Link from "next/link"
 
 function Home() {
   return (
@@ -33,9 +34,14 @@ function Home() {
       <section id="projects" className="snap-center">
         <Projects />
       </section>
-      <section id="contact" className="snap-center">
-        <Contact />
-      </section>
+      <Link href="#hero">
+        <footer className="sticky bottom-5 w-full cursor-pointer">
+          <div className="flex items-center justify-center">
+            <img className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+              src="https://media.licdn.com/dms/image/C4E03AQE3tBYL0HZRVg/profile-displayphoto-shrink_800_800/0/1654298167497?e=1698883200&v=beta&t=fYkZpb8tSQZsZb5NePGNerDODztqYAU_7Taoi6pnyPc" alt="" />
+          </div>
+        </footer>
+      </Link>
     </div>
   )
 }
