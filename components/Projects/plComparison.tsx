@@ -17,7 +17,7 @@ function Chat({ }: Props) {
             <ul className="relative list-disc space-y-4 ml-5 max-h-[300px]">
                 <li>Working on an immersive website dedicated to Premier League Players, providing users with the unique capability to compare each player comprehensively.<br /> This encompasses player profiles, in-depth game statistics, and detailed salary information</li> <br />
                 <li>Implementing a robust MySQL database to house player data, meticulously organized and managed through the Flask framework, leveraging the power of Python.<br /> This ensures a seamless and efficient backend infrastructure for data handling and retrieval</li> <br />
-                <li>Employing Angular for the front-end architecture, enhancing the website's responsiveness and user interface.<br /> The use of Angular brings a dynamic and engaging visual experience to users, ensuring a smooth and interactive navigation throughout the website</li>
+                <li>Employing Angular for the front-end architecture, enhancing the website&apos;s responsiveness and user interface.<br /> The use of Angular brings a dynamic and engaging visual experience to users, ensuring a smooth and interactive navigation throughout the website</li>
             </ul>
         </div>
     );
