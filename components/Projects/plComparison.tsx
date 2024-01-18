@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
-type Props = {}
+
+type Props = {};
 
 function Chat({ }: Props) {
     return (
-        <div className=' relative w-screen h-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center'>
+        <div className='relative w-screen h-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center'>
             <Image
                 className='relative pt-11 h-[300px]'
                 src="https://nbcsports.brightspotcdn.com/dims4/default/950438a/2147483647/strip/true/crop/1570x1304+0+0/resize/843x700!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fcb%2F8a%2Fc3607b5b1e810adcb9163838534c%2Fscreenshot-2023-05-28-at-1-48-11-pm.png"
@@ -19,7 +20,7 @@ function Chat({ }: Props) {
                 <li>Employing Angular for the front-end architecture, enhancing the website's responsiveness and user interface.<br /> The use of Angular brings a dynamic and engaging visual experience to users, ensuring a smooth and interactive navigation throughout the website</li>
             </ul>
         </div>
-    )
+    );
 }
 
-export default Chat
+export default Chat;
