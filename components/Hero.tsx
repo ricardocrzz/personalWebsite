@@ -15,7 +15,7 @@ function Hero({ }: Props) {
         <div className='h-screen flex flex-col space-y-8 items-center justify-center
         text-center overflow-hidden'>
             <BackgroundCircles />
-            <img className='relative rounded-full h-32 w-32 mx-auto object-cover' src="https://media.licdn.com/dms/image/C4E03AQE3tBYL0HZRVg/profile-displayphoto-shrink_800_800/0/1654298167497?e=1698883200&v=beta&t=fYkZpb8tSQZsZb5NePGNerDODztqYAU_7Taoi6pnyPc" alt="" />
+            <img className='relative rounded-full h-32 w-32 mx-auto object-cover' src="ricardoShot.png" alt="" />
             <div className='z-20'>
                 <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Software Engineer</h2>
                 <h1 className='text-5xl lg:text-6xl font-semibold px-10'>

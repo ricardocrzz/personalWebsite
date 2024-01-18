@@ -5,6 +5,7 @@ import LinkedIn from './Projects/LinkedIn'
 import Spotify from './Projects/Spotify'
 import Chat from './Projects/Chat'
 import Website from './Projects/Website'
+import PL from './Projects/plComparison'
 export default function Projects({ }: Props) {
     const projects = [1, 2, 3, 4]
     return (
@@ -14,6 +15,7 @@ export default function Projects({ }: Props) {
                 Projects
             </h3>
             <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-mandatory z-20'>
+                <PL />
                 <LinkedIn />
                 <Spotify />
                 <Chat />
