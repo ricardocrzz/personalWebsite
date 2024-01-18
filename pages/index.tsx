@@ -7,6 +7,7 @@ import Projects from "@/components/Projects"
 import Contact from "@/components/Contact"
 import Head from "next/head"
 import Link from "next/link"
+import Image from 'next/image';
 
 function Home() {
   return (
@@ -37,8 +38,13 @@ function Home() {
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <img className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
-              src="ricardoShot.png" alt="" />
+            <Image
+              src="/ricardoShot.png"
+              alt="Ricardo's Photo"
+              className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+              width={100}
+              height={100}
+            />
           </div>
         </footer>
       </Link>
