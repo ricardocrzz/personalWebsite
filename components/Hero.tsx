@@ -2,6 +2,7 @@ import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import Link from 'next/link'
+import Image from 'next/image'
 
 type Props = {}
 
@@ -15,7 +16,14 @@ function Hero({ }: Props) {
         <div className='h-screen flex flex-col space-y-8 items-center justify-center
         text-center overflow-hidden'>
             <BackgroundCircles />
-            <img className='relative rounded-full h-32 w-32 mx-auto object-cover' src="ricardoShot.png" alt="" />
+            <Image
+                className='relative rounded-full h-32 w-32 mx-auto object-cover'
+                src="/ricardoShot.png"
+                alt="Ricardo's Photo"
+                width={150} // Adjust the width according to your design
+                height={150} // Adjust the height according to your design
+                objectFit="cover"
+            />
             <div className='z-20'>
                 <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Software Engineer</h2>
                 <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
