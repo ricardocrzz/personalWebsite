@@ -18,7 +18,7 @@ function Hero({ }: Props) {
             <BackgroundCircles />
             <Image
                 className='relative rounded-full h-32 w-32 mx-auto object-cover'
-                src="/ricardoShot.png"
+                src="ricardoShot.png"
                 alt="Ricardo's Photo"
                 width={150} // Adjust the width according to your design
                 height={150} // Adjust the height according to your design
