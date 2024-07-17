@@ -36,7 +36,7 @@ export default function About({ }: Props) {
                 </h4>
                 <div className="max-h-60 overflow-auto p-2 border border-[#F7AB0A]/50 rounded-md md:border-0 md:max-h-96 md:overflow-visible">
                     <p className="text-base">
-                        I'm Ricardo Cruz, a passionate software developer with a solid foundation in computer science and a knack for creating efficient and scalable applications.
+                        I am a passionate software developer with a solid foundation in computer science and a knack for creating efficient and scalable applications.
                         I hold a BSc in Computer Science from the University of Calgary, where I graduated with a 3.63 GPA, achieving distinction.
                         My professional journey includes valuable internships at ATB Financial, where I contributed to significant projects in both software development and DevOps.
                         <br />
@@ -49,7 +49,7 @@ export default function About({ }: Props) {
                         My projects, such as the OverRatd Flask web app, DialedIn social media platform, Music Web App, and a real-time chat application, showcase my ability to tackle complex problems and deliver robust solutions.
                         <br />
                         <br />
-                        I'm always eager to learn and take on new challenges, striving to make a positive impact through technology.
+                        I am always eager to learn and take on new challenges, striving to make a positive impact through technology.
                         Feel free to explore my personal website and GitHub for more insights into my work and projects.
                     </p>
                 </div>
