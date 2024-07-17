@@ -8,7 +8,7 @@ function LinkedIn({ }: Props) {
         <div className='relative w-screen h-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-4 md:p-0'>
             <Image
                 className='relative w-full max-w-[230px] md:max-w-xl h-auto'
-                src="dialedin.png"
+                src="dialedIn.png"
                 alt="Dialed In"
                 width={680}
                 height={500}
