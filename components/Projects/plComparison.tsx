@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
 
 type Props = {}
 
-function plComparison({ }: Props) {
+function PlComparison({ }: Props) {
     return (
         <div className='relative w-screen h-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-4 md:p-0'>
             <Image
                 className='relative w-full max-w-[230px] md:max-w-xl h-auto'
-                src="/overRated.png"
+                src="overRated.png"
                 alt="overRated"
                 width={680}
                 height={500}
@@ -26,6 +26,7 @@ function plComparison({ }: Props) {
                 <li>Utilized “pandas” for web scraping stats from fbref.com and automated adding the scraped data to the database.</li>
             </ul>
         </div >
-    )
+    );
 }
-export default plComparison;
+
+export default PlComparison;

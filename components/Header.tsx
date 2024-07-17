@@ -62,7 +62,7 @@ function Header({ }: Props) {
                     onClick={sendEmail} // Add the onClick event handler
                 />
                 <a className="uppercase hidden md:inline-flex text-sm text-gray-400"
-                    href='resumeOct.pdf' // Replace with the actual path to your resume file
+                    href='LatestResume.pdf' // Replace with the actual path to your resume file
                     download="resume-ricardo-cruz.pdf" // Specify the desired filename for the downloaded file
                 >
                     Resume
