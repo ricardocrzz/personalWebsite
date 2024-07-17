@@ -1,11 +1,14 @@
-import React from 'react'
-import { motion } from "framer-motion"
-type Props = {}
-import LinkedIn from './Projects/LinkedIn'
-import Spotify from './Projects/Spotify'
-import Chat from './Projects/Chat'
-import Website from './Projects/Website'
-import PL from './Projects/plComparison'
+import React from 'react';
+import { motion } from "framer-motion";
+import LinkedIn from './Projects/LinkedIn';
+import Spotify from './Projects/Spotify';
+import Chat from './Projects/Chat';
+import Website from './Projects/Website';
+import PL from './Projects/plComparison';
+
+type Props = {};
+
+
 export default function Projects({ }: Props) {
     const projects = [1, 2, 3, 4]
     return (
@@ -14,7 +17,7 @@ export default function Projects({ }: Props) {
             <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
                 Projects
             </h3>
-            <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-mandatory z-20'>
+            <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
                 <PL />
                 <LinkedIn />
                 <Spotify />

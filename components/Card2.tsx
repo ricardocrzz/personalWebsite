@@ -28,11 +28,11 @@ function Card({ }: Props) {
                 <div className=""></div>
                 <p className='uppercase py-5 text-gray-300'>May 2022 - August 2022</p>
                 <ul className="list-disc space-y-4 ml-5 text-lg max-h-80 overflow-y-auto">
-                    <li>Successfully managed multiple GKE Cluster upgrades, ensuring smooth and uninterrupted operation of the
+                    <li>Successfully managed 5+ GKE Cluster upgrades, ensuring smooth and uninterrupted operation of the
                         application while implementing the latest features, security patches and performance improvements.</li>
                     <li>Created bash scripts to automate various development, deployment and backup operations in GCP.</li>
                     <li>Implemented automated CI/CD Pipelines for deploying updated applications, significantly lowering
-                        deployment time by several minutes.</li>
+                        deployment time by up to a minute.</li>
                     <li>Utilized Docker containers to generate different images for various VM environments.</li>
                 </ul>
             </div>

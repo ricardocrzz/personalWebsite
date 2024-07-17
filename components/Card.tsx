@@ -28,11 +28,11 @@ function Card({ }: Props) {
                 <div className=""></div>
                 <p className='uppercase py-5 text-gray-300'>Sep 2022 - April 2023</p>
                 <ul className="list-disc space-y-4 ml-5 text-lg max-h-90 overflow-y-auto">
-                    <li>Implemented self serve page that scaled to over 30,000 users, improving user efficiency by 81%.</li>
-                    <li>Programmed a Q&A chat bot to be incorporated into Google Chats to assist over 5,000 employees.</li>
-                    <li>Built a request portal for 7,000 users, reducing ticket resolution time by 86%.</li>
-                    <li>Designed calendar website to extract data from Google Sheets to aid 12+ teams in effortlessly managing on-
+                    <li>Reimplemented self serve page that scaled to over 1,500 users, significantly improving user efficiency.</li>
+                    <li>Programmed a Q&A chat bot to be incorporated into Google Chats to assist current employees.</li>
+                    <li>Designed calendar website to extract data from Google Sheets to aid 3+ teams in effortlessly managing on-
                         call schedules through Firebase.</li>
+                    <li>Built a request portal for 7,000 users, reducing ticket resolution time by 86%.</li>
                 </ul>
             </div>
         </article>

@@ -28,10 +28,7 @@ function Card({ }: Props) {
                 <div className=""></div>
                 <p className='uppercase py-5 text-gray-300'>April 2023-Current</p>
                 <ul className="list-disc space-y-4 ml-5 text-lg max-h-80 overflow-y-auto">
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
+                    <li>Working as a server.</li>
                 </ul>
             </div>
         </article>

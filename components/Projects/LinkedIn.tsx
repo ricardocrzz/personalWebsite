@@ -5,17 +5,19 @@ type Props = {}
 
 function LinkedIn({ }: Props) {
     return (
-        <div className=' relative w-screen h-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center'>
+        <div className='relative w-screen h-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-4 md:p-0'>
             <Image
-                className='relative pt-11 h-[300px]'
-                src="https://content.linkedin.com/content/dam/blog/en-us/corporate/blog/2020/september/frame@3x.png"
-                alt="LinkedIn Clone Image"
-                width={500}
-                height={300}
+                className='relative w-full max-w-[230px] md:max-w-xl h-auto'
+                src="/dialedin.png"
+                alt="Dialed In"
+                width={680}
+                height={500}
             />
-            <h4 className='text-4xl'><span className='underline decoration-[#F7AB0A]'>Project 2</span>: LinkedIn Clone (JavaScript)</h4>
-            <ul className="relative list-disc space-y-4 ml-5 max-h-[300px]">
-                <li>Created a responsive front-end design for LinkedIn using Material UI.</li>
+            <h4 className='text-2xl md:text-4xl text-center'>
+                <span className='underline decoration-[#F7AB0A]'>Project 2</span>: Dialed In (JavaScript)
+            </h4>
+            <ul className="relative list-disc space-y-2 md:space-y-4 pl-5 max-h-[300px] overflow-auto">
+                <li>Created a responsive social media web app similar to LinkedIn.</li>
                 <li>Integrated a Firebase back-end functionality API to develop user profiles.</li>
                 <li>Enhanced security through email and password authentication for the landing page via Firebase Console.</li>
                 <li>Implemented real time post threads using React Hooks for refreshing website snapshots.</li>
@@ -25,5 +27,4 @@ function LinkedIn({ }: Props) {
         </div>
     )
 }
-
 export default LinkedIn
