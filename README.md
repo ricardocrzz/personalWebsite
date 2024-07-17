@@ -1,5 +1,11 @@
-#################################################################################################################################### TO RUN THIS PROJECT: VISIT 'https://ricardocrzz.github.io/personalWebsite/' ####################################################################################################################################
+TO RUN THIS PROJECT: VISIT 'https://ricardocrzz.github.io/personalWebsite/' 
 
+note to self:
+to deploy app, 
+1-push to github
+2-go to actions to manually triger the depoyment
+3-click 'Deploy Next.js site to Pages'
+4-click 'run workflow;
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
